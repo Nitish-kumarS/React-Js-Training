@@ -15,13 +15,18 @@ const  Home= () => {
         //name="Nitish";
         setname("Nitish");
     }
+    const deletelist=(id)=>{
+        const temp=food.filter(food=> food.id!==id );
+        setfood(temp);
+    }
     //useState for displaying list
     const [food,setfood]=useState([
-    {name:"panipoori",cost:20}
-    ,{name:"french fries",cost:40}
-    ,{name:"poori",cost:30}
+    {name:"panipoori",cost:20,id:1}
+    ,{name:"french fries",cost:40,id:2}
+    ,{name:"poori",cost:30,id:3}
     ]
     );
+
    /* return (  
         <div className="HomeContent">
             <h2>Homepage</h2>
@@ -38,7 +43,9 @@ const  Home= () => {
             <p>{name}</p>
             <button onClick={handclick}>change</button>
             <button onClick={()=>homemsgwithparameter("leo")}>click here</button>
-            <Foodlist foods={food}/>
+          {/*  <Foodlist foods={food}/>*/ }
+            <Foodlist foods={food.filter((food)=> food.name==="poori")}></Foodlist>
+            <Foodlist foods={food} deletelist={deletelist}></Foodlist>
        </div>
    )
 }

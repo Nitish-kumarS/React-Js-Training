@@ -1,13 +1,15 @@
-const Foodlist = (props) => {
-    const foods=props.foods;
-    console.log(props,foods);
+const Foodlist = ({foods,deletdelist}) => {
+    //const foods=props.foods;
+    //console.log(props,foods);
+  
     return ( 
         <div className="foodcontent">
               
           {foods.map((x)=>(
-                 <div className="foodcontent">
+                 <div className="foodcontent" key={x.id}>
                      <h2>food: {x.name}</h2>
                      <h1>cost:{x.cost}</h1>
+                      <button onClick={()=>deletdelist(x.id)}> delete menu</button>
                  </div>
           ))}
         </div>
