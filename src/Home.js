@@ -44,8 +44,8 @@ const  Home= () => {
             <button onClick={handclick}>change</button>
             <button onClick={()=>homemsgwithparameter("leo")}>click here</button>
           {/*  <Foodlist foods={food}/>*/ }
-            <Foodlist foods={food.filter((food)=> food.name==="poori")}></Foodlist>
-            <Foodlist foods={food} deletelist={deletelist}></Foodlist>
+          { /*Foodlist foods={food.filter((food)=> food.name==="poori")}></Foodlist>*/}
+            <Foodlist foods={food} title="helo" deletelist={deletelist}></Foodlist>
        </div>
    )
 }
