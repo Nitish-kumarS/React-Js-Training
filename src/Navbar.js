@@ -12,7 +12,6 @@ const Navbar= () => {
                 }}>Find relationship</a>
             </div>
         </nav>
-
     );
 }
  

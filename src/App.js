@@ -1,6 +1,9 @@
 import './App.css';
 import Navbar from './Navbar';   //importing navbar in app
 import Home from './Home';
+import { Component } from 'react';
+import Lifecycle from './Lifecycle';
+import EvenetHandling from './EventHandling';
 //import { Component } from 'react';
 function App() {
   //const title ="welcome to the flames page";
@@ -12,18 +15,14 @@ function App() {
       <div className="content">
           <Home></Home>
        </div>
+       <Lifecycle></Lifecycle>
+       <EvenetHandling></EvenetHandling>
     </div>
   
   );
 }
-/*class App extends Component{
-  render(){
-    return (
-      <div>
-        <h1>hello</h1>
-      </div>
-    )
-  }
-}
-*/
+
+//Class Component with Component Lifecycle methode
+
+
 export default App;
