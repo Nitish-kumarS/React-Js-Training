@@ -4,6 +4,10 @@ import Home from './Home';
 import { Component } from 'react';
 import Lifecycle from './Lifecycle';
 import EvenetHandling from './EventHandling';
+import Form from './Forms';
+import LiftingupParent from './LiftingupParent';
+import Containment from './Containment';
+import Signup from './Signup';
 //import { Component } from 'react';
 function App() {
   //const title ="welcome to the flames page";
@@ -15,9 +19,16 @@ function App() {
       <div className="content">
           <Home></Home>
        </div>
-       <Lifecycle></Lifecycle>
+      {/* <Lifecycle></Lifecycle>
        <EvenetHandling></EvenetHandling>
-    </div>
+      
+        <Form></Form>
+      
+     <LiftingupParent></LiftingupParent>
+     <Containment><h1>hello this is Containment.</h1></Containment>
+      */}
+      <Signup></Signup>
+       </div>
   
   );
 }
