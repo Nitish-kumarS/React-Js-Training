@@ -21,7 +21,7 @@ class Signup extends Component{
     }
     render() {
         return (
-            <Dialog title="welcome" message=" Leo" >
+            <Dialog title="welczzozzome" message=" Leo" >
              <div className="Signup">
                  <button onClick={this.handleChange}>Login</button>
                 <button onclicl={this.handSignup}>Signup</button>

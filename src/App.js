@@ -8,6 +8,7 @@ import Form from './Forms';
 import LiftingupParent from './LiftingupParent';
 import Containment from './Containment';
 import Signup from './Signup';
+import Clickcounter from './Clickcounter';
 //import { Component } from 'react';
 function App() {
   //const title ="welcome to the flames page";
@@ -26,8 +27,11 @@ function App() {
       
      <LiftingupParent></LiftingupParent>
      <Containment><h1>hello this is Containment.</h1></Containment>
-      */}
+      
       <Signup></Signup>
+      */}
+      <Clickcounter></Clickcounter>
+
        </div>
   
   );
