@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  width: auto;
+  margin:auto;
+  position: relative;
+}
+.Newshome{
+  align-content: center;
+  text-align: left;  
+  margin-left: 15px;
+  width: 100%;
+}
+.contentNews{
+  align-items: center;
+  margin-top: 30px;
+  margin-left:50px ;
+  margin-right:50px;
+  margin-bottom:10px ;
+  padding: 20px;
+  border: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color:white;
+}
+#content-a{
+  color:forestgreen;
+}
+body{
+  background-color: lightblue;
+  position: relative;
+}
+span {
+  content: "\2191";
+}
+#newsImage{
+  width: 200px;
+  height: 200px;
+  padding: auto;
+}
+table{
+  border-collapse: collapse;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-collapse: collapse;
+}
+
+li{
+  display: block;
+  float: left;
+}
+tr{
+  text-align: left;
+  padding-left:10px;
+  margin-left: 10px;
+}
+#NavLink{
+  display: block;
+  padding: 14px 16px;
+  color:azure;
+  text-align:center ;
+}
+li a:hover {
+  background-color: #111;
+}
+Link.active {
+  background-color: #04AA6D;
+}
+.slider{
+  width: auto;
+  height:auto;
+  margin: 2% 10%;
+}
+#Sliderimg{
+  width: 900px;
+  height: 500px;
+}
+#Slidertitle{
+  text-decoration-color: black;
+  background-color: black;
+  width: 700px;
+  height: 500px;
+}
+#updownbutton{
+  border-radius: 50%;
+  border-color:green ;
+  margin-left: 20px;
+}
+#updownbutton:hover{
+  color:green;
+}
+.Searchbar{
+  margin-top: 20px;
+  padding:0px 20px ;
+}
+#Searchinput{
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+#loadmore{
+  border: #04AA6D;
+  border-radius: 5px;
+  background-color:mediumturquoise;
+  border-color: green;
+  border-style: solid;
+}
+.Filtercontent{
+  margin-left: 10px;
+  padding: 20px;
+
+}
+#Filterinput{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(212, 73, 101);
+}
+#Filterinput:hover{
+  border-color:darkgreen ;
+}
+#Noresult{
+  margin-top: 100px;
+}
