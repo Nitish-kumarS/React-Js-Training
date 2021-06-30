@@ -18,3 +18,9 @@ export const DIV =()=>{
         type:"DIV"
     }
 }
+
+export const ALL=()=>{
+    return (dispatch)=>{
+        setTimeout(()=>dispatch(MUL()),3000);
+    }
+}
